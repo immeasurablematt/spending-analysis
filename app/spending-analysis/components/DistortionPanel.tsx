@@ -57,7 +57,7 @@ export function DistortionPanel() {
                 tickLine={false}
               />
               <Tooltip
-                formatter={(value: number) => [fmt(value), "Avg/mo"]}
+                formatter={(value) => [fmt(Number(value)), "Avg/mo"]}
                 contentStyle={{
                   fontSize: 12,
                   fontFamily: "monospace",
